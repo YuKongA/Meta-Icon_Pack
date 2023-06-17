@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version title="v1.0.6" />
+    <item text="切换到 Blueprint-sample" />
+    <item text="更新至 Blueprint v2.3.5" />
+
+    <version title="v1.0.5" />
+    <item text="修改部分中文翻译" />
+    <item text="修改动漫之家、MT管理器、MT管理器Beta、DailyTask" />
+    <item text="增加小动物之星、百度网盘、多看阅读、多看阅读HD、贴吧极速版、百度地图" />
+
+    <version title="v1.0.4" />
+    <item text="迁移至 Blueprint v2.2.3" />
+    <item text="修复 toast 及 申请适配 问题" />
+    <item text="增加 DailyTask、学习强国、招商银行、米窗、高级设置Plus、F Droid、NGA玩家社区、小猿搜题、BEAKER、爱作业、hocus、兼职猫、哔哔资讯、MT管理器 beta、运动世界校园、智学网学生端、掌上英雄联盟、Muse Dash、米家、AGE动漫、Root Explorer、Snapseed、AutoJsPro、工银e生活" />
+
+    <version title="v1.0.3" />
+    <item text="迁移至 Blueprint v2.2.2" />
+
+    <version title="v1.0.2" />
+    <item text="同步源项目" />
+    <item text="增加 icon 至 1149 个" />
+
+    <version title="v1.0.0" />
+    <item text="发布首个版本" />
+</resources>
