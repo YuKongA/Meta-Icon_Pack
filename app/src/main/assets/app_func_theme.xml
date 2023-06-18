@@ -16,8 +16,9 @@
     <!-- Editor of Folder deploy and protract mode -->
     <!-- Folder contract button -->
     <Folder bg_frame_image="folderopenback" bg_frame_image_bottom_heigth="34"
-        bg_frame_way_of_drawing="1" editbox="appfunc_rename" folder_open_bg_color="#66000000"
-        line_enabled="1" up_button="folderclose" up_button_selected="folder_close_light">
+        bg_frame_way_of_drawing="1"
+        editbox="appfunc_rename" folder_open_bg_color="#66000000" line_enabled="1"
+        up_button="folderclose" up_button_selected="folder_close_light">
         <!-- <Bg_frame way_of_drawing=""></Bg_frame> <Editbox way_of_drawing=""></Editbox>
             <Up></Up> -->
     </Folder>
@@ -77,8 +78,8 @@
     <!-- Background (vertical) -->
     <!-- Background (horizontal) -->
     <!-- Background Color -->
-    <Home bg_color="#FF00000F" bg_h_image="none" bg_v_image="homebg" bg_way_of_drawing="1"
-        selected="shortcut_light_iconbg" unselected="appfunchome">
+    <Home bg_color="#FF00000F" bg_h_image="none" bg_v_image="homebg"
+        bg_way_of_drawing="1" selected="shortcut_light_iconbg" unselected="appfunchome">
         <!-- <Unselected></Unselected> <Selected></Selected> <Bg_v way_of_drawing=""></Bg_v>
             <Bg_h way_of_drawing=""></Bg_h> <Bg_color></Bg_color> -->
     </Home>
@@ -119,4 +120,3 @@
     <!-- Grid Size -->
     <AppSetting grid_format="1"></AppSetting>
 </Theme>
-

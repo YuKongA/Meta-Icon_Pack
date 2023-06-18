@@ -14,6 +14,12 @@
         android:title="@string/icons"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/wallpapers"
+        android:icon="@drawable/ic_wallpapers"
+        android:orderInCategory="300"
+        android:title="@string/wallpapers"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/apply"
         android:icon="@drawable/ic_apply"
         android:orderInCategory="400"

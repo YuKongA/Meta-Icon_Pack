@@ -2,7 +2,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <!--    This is the link for the JSON file where you have listed your wallpapers -->
-    <string name="json_url">null</string>
+    <string name="json_url">https://cdn.jsdelivr.net/gh/YuKongA/Meta-Icon_Pack@main/wallpaper/frames.json</string>
 
     <!--
     Enable immediate download
@@ -21,7 +21,7 @@
     <bool name="enable_filled_collection_preview">false</bool>
 
     <!-- Choose whether you want to show wallpaper palette colors or not -->
-    <bool name="show_wallpaper_palette_details">false</bool>
+    <bool name="show_wallpaper_palette_details">true</bool>
 
     <!--
     Show a custom image as placeholder while loading wallpapers or collections

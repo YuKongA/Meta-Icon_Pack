@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId Meta.appId
-        namespace = applicationId
+        namespace applicationId
         minSdkVersion Versions.minSdk
         targetSdkVersion Versions.targetSdk
         versionCode Meta.version
@@ -65,16 +65,10 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
-
-    buildFeatures {
-        buildConfig true
-    }
 }
 
 dependencies {
     implementation(Libs.blueprint) {
         transitive = true
     }
-    // TODO: Remove comment marks to enable
-    // implementation Libs.oneSignal
 }

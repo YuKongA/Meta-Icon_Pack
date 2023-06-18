@@ -7,7 +7,7 @@ object Versions {
     const val ksp = "$kotlin-1.0.11"
 
     // App
-    const val minSdk = 21
+    const val minSdk = 26
     const val targetSdk = 34
     const val buildTools = "34.0.0"
 

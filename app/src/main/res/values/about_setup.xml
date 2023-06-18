@@ -15,7 +15,7 @@
         <item>潮留美海かり</item>
         <item>YuKongA</item>
         <item>TaiPresident</item>
-        <item>其他参与图标绘制的朋友</item>
+        <item>其他参与图标绘制的朋友们</item>
     </string-array>
 
     <string-array name="credits_descriptions">
@@ -24,7 +24,7 @@
         <item>绘制大量图标</item>
         <item>咸鱼、现接手更新 APP</item>
         <item>协助 APP 开发</item>
-        <item>Eirperuier、 世界第一小莲儿、 Mastiff Li、 Shahzaib Ahmed、HeMing505、FEC_Sky 等</item>
+        <item>Eirperuier、世界第一小莲儿、Mastiff Li、Shahzaib Ahmed、HeMing505、FEC_Sky 等</item>
     </string-array>
 
     <string-array name="credits_buttons">
