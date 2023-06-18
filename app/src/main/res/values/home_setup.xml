@@ -38,7 +38,7 @@
     <string-array name="home_list_descriptions">
         <item>为 MIUI 准备的项目，本图标包的起源。</item>
         <item>获得项目的最新进展以及更快的适配。</item>
-        <item>感谢 Blueprint，本应用基于此构建。</item>
+        <item>本应用基于 Blueprint 构建。</item>
     </string-array>
     <string-array name="home_list_icons">
         <item>ic_prefer</item>
@@ -48,6 +48,6 @@
     <string-array name="home_list_links">
         <item>https://github.com/pzcn/MIUI-Adapted-Icons-Complement-Project</item>
         <item>https://t.me/miuiicons</item>
-        <item>https://github.com/pzcn/Meta-Icon-Pack</item>
+        <item>https://github.com/YuKongA/Meta-Icon_Pack</item>
     </string-array>
 </resources>

@@ -8,9 +8,4 @@
     <ThemePreviewMenu image="preview1" />
     <DockMenuAppIcon selector="drawer" />
 
-    <!-- Contacts App -->
-    <AppIcon
-        name="com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity"
-        image="people" />
-
 </Theme>
