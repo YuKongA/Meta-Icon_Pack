@@ -10,15 +10,10 @@ android {
         disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
 
-    compileSdkVersion Versions.targetSdk
+    compileSdk Versions.targetSdk
     buildToolsVersion Versions.buildTools
 
     defaultConfig {
-        buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
-        manifestPlaceholders = [
-                onesignal_app_id               : OneSignal.appId,
-                onesignal_google_project_number: OneSignal.googleProjectNumber
-        ]
         applicationId Meta.appId
         namespace = applicationId
         minSdkVersion Versions.minSdk
@@ -38,12 +33,8 @@ android {
     }
 
     buildTypes {
-        buildTypes.each {
-            it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
-        }
         release {
             debuggable false
-            zipAlignEnabled true
             minifyEnabled true
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
