@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/comhuaweihealth_0" /> 
+<foreground android:drawable="@drawable/comhuaweihealth_1" /> 
+</adaptive-icon> 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <version title="v1.0.7" />
+    <item text="图标同步到完美图标最新仓库版本" />
+    <item text="移除了所有应用的对应 Activity 链接，需启动器支持手动选择" />
+
     <version title="v1.0.6" />
     <item text="切换到 Blueprint-sample" />
     <item text="更新至 Blueprint v2.3.5" />

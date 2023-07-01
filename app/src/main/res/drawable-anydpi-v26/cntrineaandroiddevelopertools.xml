@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/cntrineaandroiddevelopertools_0" /> 
+<foreground android:drawable="@drawable/cntrineaandroiddevelopertools_1" /> 
+</adaptive-icon> 

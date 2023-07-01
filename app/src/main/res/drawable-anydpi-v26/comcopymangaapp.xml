@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/comcopymangaapp_0" /> 
+<foreground android:drawable="@drawable/comcopymangaapp_1" /> 
+</adaptive-icon> 

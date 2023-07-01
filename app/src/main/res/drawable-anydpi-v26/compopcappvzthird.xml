@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/compopcappvzthird_0" /> 
+<foreground android:drawable="@drawable/compopcappvzthird_1" /> 
+</adaptive-icon> 

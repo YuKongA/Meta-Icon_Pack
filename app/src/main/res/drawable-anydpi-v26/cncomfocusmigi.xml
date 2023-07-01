@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/cncomfocusmigi_0" /> 
+<foreground android:drawable="@drawable/cncomfocusmigi_1" /> 
+</adaptive-icon> 

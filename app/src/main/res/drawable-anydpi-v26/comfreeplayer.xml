@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/comfreeplayer_0" /> 
+<foreground android:drawable="@drawable/comfreeplayer_1" /> 
+</adaptive-icon> 

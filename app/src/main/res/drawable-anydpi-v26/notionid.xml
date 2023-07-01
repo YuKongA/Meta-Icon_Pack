@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/notionid_0" /> 
+<foreground android:drawable="@drawable/notionid_1" /> 
+</adaptive-icon> 

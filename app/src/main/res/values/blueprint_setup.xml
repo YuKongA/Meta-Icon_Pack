@@ -26,7 +26,7 @@
         Do you want the app to read the icons from res/xml/drawable.xml ? (true)
         Or do you prefer the icons to be loaded from res/values/icon_pack.xml ? (false)
     -->
-    <bool name="xml_drawable_enabled">false</bool>
+    <bool name="xml_drawable_enabled">true</bool>
 
     <!--
         Set to true if your icon pack includes adaptive icons. false otherwise

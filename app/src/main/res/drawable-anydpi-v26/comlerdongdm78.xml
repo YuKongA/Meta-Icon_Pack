@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/comlerdongdm78_0" /> 
+<foreground android:drawable="@drawable/comlerdongdm78_1" /> 
+</adaptive-icon> 

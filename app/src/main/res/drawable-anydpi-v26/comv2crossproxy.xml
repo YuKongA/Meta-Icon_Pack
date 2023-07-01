@@ -1,0 +1,4 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android"> 
+<background android:drawable="@drawable/comv2crossproxy_0" /> 
+<foreground android:drawable="@drawable/comv2crossproxy_1" /> 
+</adaptive-icon> 
