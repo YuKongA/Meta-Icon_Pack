@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-parcelize'
 apply plugin: 'com.google.devtools.ksp'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     lint {
@@ -10,14 +10,12 @@ android {
         disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
 
-    compileSdk Versions.targetSdk
-    buildToolsVersion Versions.buildTools
-
+    namespace Meta.namespace
     defaultConfig {
         applicationId Meta.appId
-        namespace applicationId
-        minSdkVersion Versions.minSdk
-        targetSdkVersion Versions.targetSdk
+        minSdk Versions.minSdk
+        compileSdk Versions.compileSdk
+        targetSdk Versions.targetSdk
         versionCode Meta.version
         versionName Meta.versionName
         setProperty("archivesBaseName", applicationId + "-" + versionName)
@@ -46,15 +44,11 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    packagingOptions {
-        resources {
-            pickFirsts += [
-                    'META-INF/core_debug.kotlin_module',
-                    'META-INF/core_release.kotlin_module',
-                    'META-INF/library_debug.kotlin_module',
-                    'META-INF/library_release.kotlin_module'
-            ]
-        }
+    packaging {
+        resources.pickFirsts.add('META-INF/core_debug.kotlin_module')
+        resources.pickFirsts.add('META-INF/core_release.kotlin_module')
+        resources.pickFirsts.add('META-INF/library_debug.kotlin_module')
+        resources.pickFirsts.add('META-INF/library_release.kotlin_module')
     }
 
     compileOptions {
@@ -64,6 +58,7 @@ android {
 
     kotlinOptions {
         jvmTarget = '17'
+        freeCompilerArgs += "-language-version=2.0"
     }
 }
 

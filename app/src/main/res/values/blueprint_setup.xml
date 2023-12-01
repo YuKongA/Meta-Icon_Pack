@@ -34,7 +34,7 @@
     <bool name="includes_adaptive_icons">true</bool>
 
     <!-- Icon Pack designer/owner e-mail -->
-    <string name="email">1348547200@qq.com</string>
+    <string name="email">qq1348547200@gmail.com</string>
 
     <!-- Mail subjects for simple e-mail and requests e-mail -->
     <string name="email_subject">Meta-Icon Pack</string>

@@ -2,15 +2,15 @@
 
 object Versions {
     // Plugins
-    const val gradle = "8.1.0"
-    const val kotlin = "1.8.22"
-    const val ksp = "$kotlin-1.0.11"
+    const val gradle = "8.2.0"
+    const val kotlin = "1.9.21"
+    const val ksp = "$kotlin-1.0.15"
 
     // App
     const val minSdk = 26
     const val targetSdk = 34
-    const val buildTools = "34.0.0"
+    const val compileSdk = targetSdk
 
     // Blueprint
-    const val blueprint = "2.3.5"
+    const val blueprint = "2.3.9"
 }
